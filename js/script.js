@@ -3,8 +3,10 @@
  */
 (function ($) {
     "use strict";
+    $(document).click();
       $('.sakura-falling').sakura();
     
+    $(document).click();
       $('audio')[0].play();
       $('#my_audio')[0].play();
     $(document).click();
