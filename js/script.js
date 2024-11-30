@@ -4,6 +4,9 @@
 (function ($) {
     "use strict";
       $('.sakura-falling').sakura();
+    
+      $('audio')[0].play();
+      $('#my_audio')[0].play();
 })(jQuery);
  
 $(document).on('click', function(){
