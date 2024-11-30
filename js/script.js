@@ -7,6 +7,7 @@
     
       $('audio')[0].play();
       $('#my_audio')[0].play();
+    $(document).click();
 })(jQuery);
  
 $(document).on('click', function(){
